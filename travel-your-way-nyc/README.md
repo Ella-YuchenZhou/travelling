@@ -4,8 +4,8 @@ I enjoy traveling, so I wanted to make a tool that helps visitors organize a New
 ## Core interaction
 When users generate or edit an itinerary, the schedule, estimated costs, and warnings update automatically. They can add, remove, reorder, or move places between days. They can also add nearby food and shopping stops and open locations or directions in Google Maps.
 ## How to use it
-1. Download and unzip the repository.
-2. Open index.html in a browser.
+1. Download the repository as a ZIP file and unzip it.
+2. Open the `travel-your-way-nyc` folder, then open its `index.html` file in a browser.
 3. Choose your trip length, daily hours, budget, interests, starting area, pace, and lunch preferences.
 4. Select any must-see places and click Generate my itinerary.
 5. Review and adjust the plan.
@@ -25,6 +25,7 @@ Check lunch coverage after all schedule changes, not just before inserting a bre
 I completed five browser checks covering generation with and without interests, lunch scheduling, itinerary editing, budget warnings, and saving and map links. The tested cases worked as expected. My results are in testing-notes.md.
 ## Reflection
 At first, I thought asking AI to group nearby places would be enough. During AI-assisted reviews, some routes still went back and forth between areas. Stricter rules reduced this, but then one day had only the High Line. I asked the planner to consider nearby areas too. This made me think more carefully about what I meant by a “good itinerary.” I wanted to reduce travel time, but I also wanted each day to feel useful without being too busy.
+
 Lunch caused another problem. Adding a lunch break could push a food-market visit into lunchtime, creating two meals in a row. I asked AI to check the final schedule again instead of just removing a charge. My final browser checks worked as expected, but I still do not understand every line of code. AI helped me build and check the project, while I decided which results made sense and what needed changing. The prices, hours, and travel times still need confirmation before a real trip.
 ## Limitations
 1. Prices and opening hours are examples. Closures, reservations, and ticket availability are not fully handled.
