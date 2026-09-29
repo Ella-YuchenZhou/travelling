@@ -4,12 +4,13 @@ I enjoy traveling, so I wanted to make a tool that helps visitors organize a New
 ## Core interaction
 When users generate or edit an itinerary, the schedule, estimated costs, and warnings update automatically. They can add, remove, reorder, or move places between days. They can also add nearby food and shopping stops and open locations or directions in Google Maps.
 ## How to use it
-1. Download the repository as a ZIP file and unzip it.
-2. Open the `travel-your-way-nyc` folder, then open its `index.html` file in a browser.
-3. Choose your trip length, daily hours, budget, interests, starting area, pace, and lunch preferences.
-4. Select any must-see places and click Generate my itinerary.
-5. Review and adjust the plan.
-No installation is needed. Planning works offline, but external links need internet access. Plans are saved in the current browser when local storage is available.
+## How to use it
+Open the [live website](https://ella-yuchenzhou.github.io/travelling/travel-your-way-nyc/).
+You can also run it on your computer. Download and unzip the repository, open the `travel-your-way-nyc` folder, and open `index.html` in a browser.
+1. Choose your trip length, daily hours, budget, interests, starting area, pace, and lunch preferences.
+2. Select any must-see places and click **Generate my itinerary**.
+3. Review and adjust the plan.
+No installation is needed. The downloaded version works offline, but Google Maps and other external links need internet access. Plans are saved in the current browser when local storage is available.
 ## Design choices
 I wanted to keep nearby places together while letting users make their own choices. Different pace options leave more or less time for breaks. Nearby cafés and shops are optional, and a restaurant can replace a planned lunch.
 I used taxi yellow, dark colors, green accents, and New York landmark illustrations to give the page a connection to the city.
